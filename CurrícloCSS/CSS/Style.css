@@ -1,0 +1,23 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 5em;
+    margin-right: 5em;
+    background-color: powderblue;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color:yellow
+}
+
+h2.cargo {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+    font-size: 2rem;
+}
