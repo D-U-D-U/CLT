@@ -1,7 +1,7 @@
 :root {
-    --corBranca: #FFFFFF;
+    --corBranca: #ffffff;
     --corPreta: #000000;
-    --cor1: #ffffff;
+    --cor1: #000000;
     --cor2: #D4C9BE;
     --cor3: #e43030a6;
     --cor4: #030303;
@@ -14,12 +14,12 @@ body {
 }
 
 a.menuInicial {
-    color: var(--cor1);
+    color: var(--corPreta);
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
     padding: 0.5em;
     border-radius: 0.5em;
-    transition: background-color 0.3s, color 0.3s;
+    transition: background-color var(--corPreta), color 0.3s;
     background-color: var(--cor3);
 }
