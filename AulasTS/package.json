@@ -1,0 +1,27 @@
+{
+  "name": "aulasts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "node build/index.js",
+    "build": "rimraf .build && tsc"
+  },
+  "keywords": [
+    "Ensinos",
+    "TypeScript",
+    "Node.js",
+    "CLT"
+  ],
+  "author": "Cládio Barros",
+  "license": "ISC",
+  "description": "Tentativa de Aprendizado de TypeScript com Node.js",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.19.4"
+  }
+}
