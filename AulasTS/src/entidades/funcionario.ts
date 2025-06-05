@@ -26,7 +26,7 @@ export class funcionario  {
         this.dataNascimento = dataNascimento;
         this.email = email;
         this.salario = salario;
-        this.status = true; // Default status is true
+        this.status = true;
         this.nomeSocial = nomeSocial;
         this.fg = fg;        
     }
